@@ -1,10 +1,10 @@
 # Use latest jboss/base-jdk:8 image as the base
-FROM ixtlanteam/wildfly-no-modules:latest
+FROM ixtlanteam/wildfly-no-modules:8.2.1.Final
 ARG ART_USER
 ARG ART_PASSWORD
 
 # Set the WILDFLY_VERSION env variable
-ENV IX_WF_VERSION 10
+ENV IX_WF_VERSION 8
 ENV IXF_VERSION 1.3-SNAPSHOT
 #ENV IXF_MODULES_SHA1 8a46e9523aea5cb27c176869e9d12df0d16ab176
 ENV JBOSS_HOME /opt/jboss/wildfly
