@@ -1,5 +1,5 @@
 # Use latest jboss/base-jdk:8 image as the base
-FROM ixtlanteam/wildfly-no-modules:latest
+FROM ixtlanteam/wildfly-no-modules:10.0.0.Final
 ARG ART_USER
 ARG ART_PASSWORD
 
